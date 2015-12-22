@@ -1,0 +1,9 @@
+<apex:page standardController="Contact" extensions="LookupExampleController">
+  <apex:form >
+      Contact Owner Id
+      <apex:inputField value="{!Contact.OwnerID}"/>
+      Contact Account Id
+      <apex:inputField value="{!Contact.AccountId}"/>
+  </apex:form>
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>
